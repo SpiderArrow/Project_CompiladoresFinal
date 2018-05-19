@@ -1,0 +1,147 @@
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub
+$ git clone https://github.com/SpiderArrow/Project_Compiladores.git
+Cloning into 'Project_Compiladores'...
+warning: You appear to have cloned an empty repository.
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub
+$ cd
+
+C1_ro@Cristopher MINGW64 ~
+$ dir
+3D\ Objects
+ansel
+AppData
+Configuración\ local
+Contacts
+Cookies
+Datos\ de\ programa
+Desktop
+Documents
+Downloads
+Entorno\ de\ red
+Favorites
+Impresoras
+IntelGraphicsProfiles
+Links
+Menú\ Inicio
+MicrosoftEdgeBackups
+Mis\ documentos
+Music
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{561c54df-d328-11e7-9894-2c4d54c643f9}.TM.blf
+NTUSER.DAT{561c54df-d328-11e7-9894-2c4d54c643f9}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{561c54df-d328-11e7-9894-2c4d54c643f9}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive
+Pictures
+Plantillas
+Reciente
+Saved\ Games
+Searches
+SendTo
+Videos
+workspace
+
+C1_ro@Cristopher MINGW64 ~
+$ cd Documents
+
+C1_ro@Cristopher MINGW64 ~/Documents
+$ ls
+ angular/                            'listado estudiantes cpi.xlsx'
+'base usuarios de computación.xlsx'  'Meditaciones Cristopher Sarceño'/
+ BASE+PADRES+Y+ALUMNOS.xlsx          'Mi música'@
+'Camtasia Studio'/                   'Mis imágenes'@
+'clase computación'/                 'Mis vídeos'@
+ desktop.ini                          NetBeansProjects/
+'drumstick case.txt'                 'Plantillas personalizadas de Office'/
+'ejercicio 4.xlsx'                   'PROYECTO pacto colectivo rolando.docx'
+'FORMULARIO DE PERMISO ACTUAL.xlsx'  'Qué cosas puedo hacer en la computadora preescolar.docx'
+'Gaming Mouse Profiles'/             'Tarea Factibilidad económica Cristopher Sarceño 0905154789.docx'
+ GitHub/                             'Virtual Machines'/
+'imagen dos anasisls4.jpg'           'wicho maje.wav'
+'imagen uno tarea analisis 1.jpg'
+
+C1_ro@Cristopher MINGW64 ~/Documents
+$ cd GitHub/
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub
+$ ls
+Project_Compiladores/
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub
+$ cd Project_Compiladores/
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub/Project_Compiladores (master)
+$ ls
+index.txt  js/
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub/Project_Compiladores (master)
+$ git add -A
+warning: LF will be replaced by CRLF in js/Entrada.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/Java.cup.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/Lexer.flex.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/Lexer.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in js/REGLAS GRAMATICALES.
+The file will have its original line endings in your working directory.
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub/Project_Compiladores (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.txt
+        new file:   js/Analizador_v2.java
+        new file:   js/Consola.java
+        new file:   js/EXPR. REG..png
+        new file:   js/Entrada.txt
+        new file:   js/Java.cup
+        new file:   js/Lexer.flex
+        new file:   js/Lexer.java
+        new file:   js/NOMBRES INTERNOS.png
+        new file:   js/Parsito.java
+        new file:   js/REGLAS GRAMATICALES
+        new file:   js/TError.java
+        new file:   js/sym.java
+
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub/Project_Compiladores (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 03fc7aa] Initial commit
+ 13 files changed, 1946 insertions(+)
+ create mode 100644 index.txt
+ create mode 100644 js/Analizador_v2.java
+ create mode 100644 js/Consola.java
+ create mode 100644 js/EXPR. REG..png
+ create mode 100644 js/Entrada.txt
+ create mode 100644 js/Java.cup
+ create mode 100644 js/Lexer.flex
+ create mode 100644 js/Lexer.java
+ create mode 100644 js/NOMBRES INTERNOS.png
+ create mode 100644 js/Parsito.java
+ create mode 100644 js/REGLAS GRAMATICALES
+ create mode 100644 js/TError.java
+ create mode 100644 js/sym.java
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub/Project_Compiladores (master)
+$ git push
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (16/16), 395.32 KiB | 17.19 MiB/s, done.
+Total 16 (delta 0), reused 0 (delta 0)
+To https://github.com/SpiderArrow/Project_Compiladores.git
+ * [new branch]      master -> master
+
+C1_ro@Cristopher MINGW64 ~/Documents/GitHub/Project_Compiladores (master)
+$
